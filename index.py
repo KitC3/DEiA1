@@ -3,7 +3,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 
 from app import app, server
-from tabs import intro, predict, explain, evaluate
+from tabs import intro, predict, explain
 
 style = {'maxWidth': '960px', 'margin': 'auto'}
 
