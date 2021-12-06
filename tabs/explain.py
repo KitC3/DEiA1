@@ -26,4 +26,4 @@ Various regression models were run such as simple linear models to ensemble mode
 
 """),
 
-html.Img(src='https://raw.githubusercontent.com/KitC3/DEiA1/main/dashboard_rest.png?token=ANLNUUKGGN5SDXHJ5KVJVH3BVZSIQ')]
+html.Img(src='https://raw.githubusercontent.com/KitC3/DEiA1/main/dashboard_rest.png')]
