@@ -45,7 +45,7 @@ layout = html.Div([
     ], style=style),
 
 
-html.Img(src='https://raw.githubusercontent.com/KitC3/DEiA1/main/dashboard_rest.png?token=ANLNUUKGGN5SDXHJ5KVJVH3BVZSIQ')])
+html.Img(src='https://raw.githubusercontent.com/KitC3/DEiA1/main/dashboard_rest.png')])
 
 
 @app.callback(
