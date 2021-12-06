@@ -12,7 +12,7 @@ app.layout = html.Div([
     dcc.Tabs(id='tabs', value='tab-intro', children=[
         dcc.Tab(label='Introduction', value='tab-intro'),
         dcc.Tab(label='Prediction', value='tab-predict'),
-        dcc.Tab(label='Explaination', value='tab-explain'),
+        dcc.Tab(label='Explanation', value='tab-explain'),
     ]),
     html.Div(id='tabs-content'),
 ], style=style)
