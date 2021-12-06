@@ -16,4 +16,4 @@ This web app enables the user to determine the predicted decommsion time of a bu
 The predicted decommission time is based on historical data from the BAG (Basisregistratie Adressen en Gebouwen) dataset and socio-economic data from the CBS (Centraal Bureau voor de Statistiek).
 """),
 
-html.Img(src='https://raw.githubusercontent.com/KitC3/DEiA1/main/dashboard_intro.png')]
+html.Img(src='https://raw.githubusercontent.com/KitC3/DEiA1/main/dashboard_intro.png?token=ANLNUUPZVWJKDLHMRE4QXCDBVZSFS')]
