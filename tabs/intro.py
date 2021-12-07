@@ -10,7 +10,7 @@ layout = [
     
 dcc.Markdown("""
 ### Introduction
-Welcome to the Dashboard of the Decommision Time Predictor of buildings in the Netherlands from New Horizon, made by group 9.
+Welcome to the Dashboard of the Decommission Time Predictor of buildings in the Netherlands from New Horizon, made by group 9.
 
 This web app enables the user to determine the predicted decommission time of a building.
 The predicted decommission time is based on historical data from the BAG (Basisregistratie Adressen en Gebouwen) dataset and socio-economic data from the CBS (Centraal Bureau voor de Statistiek).
