@@ -7,7 +7,7 @@ from app import app
 layout = [dcc.Markdown("""
 #### The Project Goal and Data
 
-The goal of the project is to predict the decommission time of a building in the Netherlands by using open source data. This end product would then be presented as a minmum value product (MVP)
+The goal of the project is to predict the decommission time of a building in the Netherlands by using open source data. This end product would then be presented as a minimum value product (MVP)
 for the company New Horizon. 
 
 #### The Data and Evaluation Protocol
