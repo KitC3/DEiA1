@@ -18,7 +18,7 @@ layout = html.Div([
         ### Predict
         Use the controls below to predict the decommision time, based on the variables elected from the dataset. A string of the data is required.
         
-        If applicable the decommsion time of a building can also be inputted, to see the performance of the model.
+        If applicable the decommission time of a building can also be inputted, to see the performance of the model.
 
     """),
 
