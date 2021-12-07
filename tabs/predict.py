@@ -16,7 +16,7 @@ style = {'padding': '1.5em'}
 layout = html.Div([
     dcc.Markdown("""
         ### Predict
-        Use the controls below to predict the decommision time, based on the variables elected from the dataset. A string of the data is required.
+        Use the controls below to predict the decommission time, based on the variables elected from the dataset. A string of the data is required.
         
         If applicable the decommission time of a building can also be inputted, to see the performance of the model.
 
@@ -64,10 +64,10 @@ def predict(data_input, decommision_time):
     if float(decommision_time) > 0:
         difference = ((y_pred - float(decommision_time)) / float(decommision_time)) * 100
         if difference < 0:
-            results = f'The predicted decomission time is {y_pred:.2f} years which is {difference:.2f}% under the actual decommision time ({decommision_time} years).'
+            results = f'The predicted decommission time is {y_pred:.2f} years which is {difference:.2f}% under the actual decommission time ({decommision_time} years).'
         else:
-            results = f'The predicted decomission time is {y_pred:.2f} years which is {difference:.2f}% over the actual decommision time ({decommision_time} years).'
+            results = f'The predicted decommission time is {y_pred:.2f} years which is {difference:.2f}% over the actual decommission time ({decommision_time} years).'
     else:
-        results = f'The predicted decomission time is {y_pred:.2f} years.'
+        results = f'The predicted decommission time is {y_pred:.2f} years.'
 
     return results
